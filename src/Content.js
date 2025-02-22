@@ -4,9 +4,9 @@ import Hero_person from "./assets/images/Hero/person.png";
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import illustrator from "./assets/images/Skills/illustrator.png";
+import indesign from "./assets/images/Skills/indesign.png";
+import branding from "./assets/images/Skills/branding.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -58,55 +58,55 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    title: "Senior Designer",
+    firstName: "THIAGO",
+    LastName: "ARAÚJO",
+    btnText: "Work With Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "10+",
+        text: "Years of experience in Graphic & UI/UX Design",
       },
       {
-        count: "20+",
-        text: "Projects Worked in my career",
+        count: "50+",
+        text: "Projects completed in my career",
       },
     ],
   },
   skills: {
     title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    subtitle: "MY EXPERTISE",
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "Advanced UI/UX design for digital products.",
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
         name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        para: "High-end photo editing and graphic design.",
         logo: ps,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        name: "Adobe Illustrator",
+        para: "Vector illustrations and branding design.",
+        logo: illustrator,
       },
       {
         name: "Sketch",
-        para: "Lorem ipsum text  dummy",
+        para: "Wireframing and UI design for mobile & web.",
         logo: sketch,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Adobe InDesign",
+        para: "Professional layouts for magazines & books.",
+        logo: indesign,
+      },
+      {
+        name: "Branding & Identity",
+        para: "Creating strong visual identities for brands.",
+        logo: branding,
       },
     ],
     icon: MdArrowForward,
@@ -116,101 +116,97 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Brand Identity & Logo Design",
+        para: "I create unique and impactful brand identities that leave a lasting impression.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "UI/UX Design",
+        para: "Designing intuitive and visually appealing digital experiences for web and mobile.",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Print & Digital Media",
+        para: "Creating stunning print materials, social media graphics, and digital marketing assets.",
         logo: services_logo3,
       },
     ],
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "MY WORK",
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Corporate Branding",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "E-commerce UI/UX Design",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "Marketing & Social Media Campaigns",
         image: project3,
       },
     ],
   },
   Testimonials: {
     title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+    subtitle: "CLIENT REVIEWS",
     testimonials_content: [
       {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        review: "Thiago transformed our brand with a unique and memorable identity!",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "Sophia Carter",
       },
       {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        review: "His UI/UX designs are intuitive and visually stunning!",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Michael Lee",
       },
       {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        review: "Highly professional, creative, and always meets deadlines!",
         img: avatar3,
-        name: "Johnny",
+        name: "Emily Johnson",
       },
       {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        review: "A true expert in graphic and branding design!",
         img: avatar4,
-        name: "ROBBIN",
+        name: "Daniel Smith",
       },
     ],
   },
   Hireme: {
     title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
+    subtitle: "FOR YOUR DESIGN NEEDS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "Looking for a creative designer to elevate your brand or digital presence? Let's work together!",
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "thiago.design@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:thiago.design@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+55 99999-9999",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/559999999999",
       },
       {
-        text: "codeaprogram",
+        text: "thiago.design",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/thiago.design/",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2024",
   },
 };
