@@ -2,11 +2,11 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import illustrator from "./assets/images/Skills/illustrator.png";
-import indesign from "./assets/images/Skills/indesign.png";
-import branding from "./assets/images/Skills/branding.png";
+import sketch from "./assets/images/Skills/figma.png";
+import ps from "./assets/images/Skills/figma.png";
+import illustrator from "./assets/images/Skills/figma.png";
+import indesign from "./assets/images/Skills/figma.png";
+import branding from "./assets/images/Skills/figma.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
